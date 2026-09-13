@@ -59,7 +59,8 @@ Assumption: a real CSV upload will always have some messy or duplicate rows, so 
 
 ## 4 & 5. Links to my most complex Python and database code
 
-1. 
+1. Python Code: https://github.com/MahekJain-hub/AccuKnox-AI-ML-Trainee-Assignment-/blob/4b840a90ed7cfc33c1434a8760fd23500f81fccc/reference-code/sugarscape_model.py
+2. 
 
 ## Before you run anything
 
