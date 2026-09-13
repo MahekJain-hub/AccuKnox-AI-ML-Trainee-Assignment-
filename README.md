@@ -59,7 +59,7 @@ Assumption: a real CSV upload will always have some messy or duplicate rows, so 
 
 ## 4 & 5. Links to my most complex Python and database code
 
-[fill in your own links here — these need to be real projects you wrote, not this repo]
+1. 
 
 ## Before you run anything
 
