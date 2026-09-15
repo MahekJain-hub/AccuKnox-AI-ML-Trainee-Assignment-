@@ -2,11 +2,11 @@ import requests
 import pandas as pd
 import sqlite3   
 
-#Calling the API
+# Calling the API
 url = "https://openlibrary.org/search.json"
-params = {"q": "data science", "limit": 20}     # limit = how many results we want back
-response = requests.get(url, params=params)     # sends the request, waits for the API to reply
-data = response.json()                          # turns the reply (raw text) into a Python dict
+params = {"q": "data science", "limit": 20}     
+response = requests.get(url, params=params)     
+data = response.json()                          
 
 # Pulling out 3 fields
 books_list = []
