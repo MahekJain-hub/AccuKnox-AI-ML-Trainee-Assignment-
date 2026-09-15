@@ -57,10 +57,13 @@ python task3_csv_to_sqlite.py
 
 Assumption made: a real CSV upload will always have some messy or duplicate rows, so I cleaned the data before saving it instead of saving everything as is. 
 
-## 4 & 5. Links to my most complex Python and database code
-Open folder reference-code
-1. Python Code: https://github.com/MahekJain-hub/AccuKnox-AI-ML-Trainee-Assignment-/blob/4b840a90ed7cfc33c1434a8760fd23500f81fccc/reference-code/sugarscape_model.py
-2. Database Code: https://github.com/MahekJain-hub/AccuKnox-AI-ML-Trainee-Assignment-/blob/cd5303c8a7449e98603a8bfc74d7d9f0db8cb9dd/reference-code/tpm13_query.sql
+## 4 & 5. Most complex Python and database code
+
+**Python Code: Sugarscape Model** (`reference-code/sugarscape_model.py`)
+An agent-based simulation of 800 agents foraging for sugar on a 250x250 grid. Each agent has randomly assigned vision, metabolism, and starting wealth, and every time step it looks around (based on its vision range), moves to the best unclaimed cell it can see, harvests sugar, and dies if it runs out of wealth. Ran for 1,000 time steps, then used pandas and seaborn to analyze how an agent's vision affects how long it survives.
+
+**Database Code: TPM 13 Treasury Flow Query** (`reference-code/treasury_flow_query.sql`)
+A SQL query built for SAP Treasury and Risk Management reporting at my previous internship. It joins 9 tables to pull transaction flow data (postings, valuations, interest calculations) for a set of financial product types, and handles real-world data issues such as deduplicating historical records with window functions, falling back between two different ID fields depending on product type, and safely parsing SAP's date formats.
 
 ## Before you run anything
 
