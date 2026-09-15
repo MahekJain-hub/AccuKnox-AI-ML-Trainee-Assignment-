@@ -1,6 +1,6 @@
-# AccuKnox AI/ML Internship: Problem Statement 1
+# AccuKnox AI/ML Internship: Problem Statement 1 & 2
 
-This folder has 4 files for the 3 sub-tasks in problem statement 1. Below is a description of what each one does, and how to run the files. 
+This folder has 4 folders for the 5 sub-tasks in problem statement 1, and one document as a PDF for problem statement 2. Below is a description of each one of the 5 sub-tasks in problem statement 1, and how to run the files. For problem statement 2, please open the document 'Problem Statement 2'  
 
 ## Task 1: Get data on books from an external API
 
