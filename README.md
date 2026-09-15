@@ -58,7 +58,7 @@ python task3_csv_to_sqlite.py
 Assumption made: a real CSV upload will always have some messy or duplicate rows, so I cleaned the data before saving it instead of saving everything as is. 
 
 ## 4 & 5. Links to my most complex Python and database code
-Open folder ''' reference-code '''
+Open folder reference-code
 1. Python Code: https://github.com/MahekJain-hub/AccuKnox-AI-ML-Trainee-Assignment-/blob/4b840a90ed7cfc33c1434a8760fd23500f81fccc/reference-code/sugarscape_model.py
 2. Database Code: https://github.com/MahekJain-hub/AccuKnox-AI-ML-Trainee-Assignment-/blob/cd5303c8a7449e98603a8bfc74d7d9f0db8cb9dd/reference-code/tpm13_query.sql
 
